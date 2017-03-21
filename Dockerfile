@@ -9,3 +9,6 @@ RUN apt-get -qq install python3.4 python3-pip
 
 # install awscli
 RUN pip3 install awscli
+
+# install curl
+RUN apt-get -qq install curl
