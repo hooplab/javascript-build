@@ -1,4 +1,4 @@
-FROM node:8.9.0
+FROM node:12.7.4
 
 ARG DEBIAN_FRONTEND=noninteractive
 
